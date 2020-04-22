@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+/* body{background: #F2F3F7;} */
+*{font-family: isans;}
+body{background: #f5f5f5 !important;}
+
+#wrraper { direction: rtl; }
+
+.__paral{ width:98%; max-width:  1200px; }
+
+.__marg { display: block; margin: auto; }
+.__marg__bot { margin-bottom: 15px;}
+
+.__container { width: 100%; margin: 0; padding: 0px; }
+
+.__center { margin: auto; float: none; display: block; } 
+
+.__bold { font-family: isansbold;}
+
+.__center__pos { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);}
+.__center__Posi { position: absolute; left: 0; top: 0; bottom: 0; right: 0; margin: auto; }
+
+.__position { position: relative; }
+
+.__no__padding{ padding: 0px; }
+.__no__padding__left{ padding-left: 0px; }
+.__no__padding__right{ padding-right: 0px; }
+
+ul{ padding: 0px; margin: 0px; }
+ul li{ list-style: none; padding: 9px 0; display: block; }
+
+a:hover{ text-decoration: none !important; }
+
+
+.__border{ border: 1px solid #e6e6e6; margin: 10px; border-radius: 5px;   }
+
+
+
+/* responsive */
+.hidden__xs{ display: none; }
+.show__xs{ display: block; }
+
+/* icons */
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../../font/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2');
+  }
+  
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -moz-font-feature-settings: 'liga';
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+/* fonts */
+@font-face {
+    font-family: 'isans';
+    font-style: normal;
+      font-weight: bold;
+      src: url('../../font/irsans/regular/IRANSansWeb.eot');
+      src: url('../../font/irsans/regular/IRANSansWeb.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+           url('../../font/irsans/regular/IRANSansWeb.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+           url('../../font/irsans/regular/IRANSansWeb.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+           url('../../font/irsans/regular/IRANSansWeb.ttf') format('truetype');
+  }
+  @font-face {
+      font-family: isansbold;
+      font-style: normal;
+      font-weight: bold;
+      src: url('../../font/irsans/bold/IRANSansWeb_Bold.eot');
+      src: url('../../font/irsans/bold/IRANSansWeb_Bold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+           url('../../font/irsans/bold/IRANSansWeb_Bold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+           url('../../font/irsans/bold/IRANSansWeb_Bold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+           url('../../font/irsans/bold/IRANSansWeb_Bold.ttf') format('truetype');
+  }
+
